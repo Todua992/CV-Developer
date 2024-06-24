@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Luka Gotsiridze}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large Software $\sim$ Engineer Student} % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	\icon{Globe}{11}{\href{http://www.google.com}{secureid.dk}}\\ 
+    \icon{Phone}{11}{53 56 20 01}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:email@example.com}{todualuka992@gmail.com}}\\	
+    \icon{Github}{11}{\href{https://github.com/Todua992}{github.com/Todua992}}\\
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com/in/lukagotsiridze/}{linkedin.com/in/lukagotsiridze}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+   
+
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+        Java, SQL, Python, JavaScript, TypeScript, HTML, C, C\#, C++, OCaml, WebAssembly.
+    \end{minipage}
+    \vspace{4mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+        GCP, Docker, Kubernetes, Spark, Hadoop, Hive, Spring Framework, MongoDB, Microsoft Azure, React.js.
+    \end{minipage}
+    \vspace{4mm}
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+\cvsect{Projects}
+\begin{entrylist}
+	\entry
+		{AAU-CPH 2024}
+		{Numatix: Programming Language and compiler for faster Web-based calculations}
+		{}
+		{Developed Numatix, a high-level language for web-based numerical computations using WebAssembly. Utilized OCaml for compiler development, ensuring user-friendly syntax and JavaScript compatibility. Conducted thorough testing and explored future enhancements.}
+    \entry
+		{AAU-CPH 2023}
+		{Fullstack time-tracking application for invoice generation}
+		{}
+		{Designed and developed a web-based time-tracking tool for a company \textbf{Enablment}, enhancing project transparency, efficiency, and quality. Enabled stakeholders to monitor task time and generate customized, descriptive invoices.}
+   \entry
+		{AAU-CPH 2023}
+		{Large language models for improved accessibility of medical records}
+		{\href{https://github.com/NicklasKleemann/2ndSemesterProject}{Github link}}
+		{Developed an AI-driven web application to enhance Health Records' accessibility and usability. Focused on rephrasing medical records for better patient understanding. Demonstrated effective solutions and evaluated the potential transformative impact on healthcare.}
+     \entry
+		{NEXT-SukkerToppen 2023}
+		{DDU Project: VR vs PC Multiplayer Game}
+		{\href{https://github.com/Todua992/vrVSpc}{Github link}}
+		{A cross-platform game developed using Unity for the DDU subject, earning the highest grade. This project was the first to receive academic advocacy from our instructor, who recommended us to industry professionals. Plot twist, we did not initially plan to complete the game's development.}
+       \entry
+		{NEXT-SukkerToppen 2022 - 2023}
+		{SOP Project: Machine Learning - Self Driving Car}
+		{}
+		{Developed a self-driving car simulation using Unity and C\#. Despite the unconventional choice of language, I successfully developed it, highlighting a notable achievement.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+    \entry
+		{2022 - 20xx}
+		{Aalborg University Copenhagen}
+		{\href{https://www.aau.dk/uddannelser/bachelor/software-koebenhavn}{Link -> University}}
+		{Filed of Study: \textbf{Software Engineering}}
+    \entry
+		{2019 -- 2022}
+		{Next SukkerToppen}
+		{High School}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item{Field of Study : \textbf{Computer Science}}
+            \item{Chairmen of LAN Committee}
+        \end{itemize} 
+        \texttt{}\texttt{}}
+	\entry
+		{2012- 2019}
+		{Langelinie Skolen}
+		{School}
+		{}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Experience}
+\begin{entrylist}
+	\entry
+        {2023 -- 20xx}
+		{SecureID}
+		{\href{https://secureid.dk/}{Link -> SecureID}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item{CEO \& CO-Founder of the Company}
+            \item{Developer}
+        \end{itemize} 
+        \texttt{C\#} \slashsep \texttt{JavaScript} \slashsep \texttt{React Native} \slashsep \texttt{Swift} \slashsep \texttt{SQL}}
+	\entry
+		{2020 -- 20xx}
+		{Føtex Fisketorvet}
+		{FØTEX}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item{Custommer Service}
+            \item{IT-Support}
+        \end{itemize} 
+        \texttt{}\texttt{}}
+	\entry
+		{2018 -- 2020 \\\footnotesize{Super Market}}
+		{SPAR}
+		{SPAR}
+		{\vspace{-10pt}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+	\cvsect{Languages}
+    \vspace{-6pt}
+    
+    \hspace{26mm} \textbf{Danish} - Proficient, \textbf{English} - Fluent, \textbf{ Georgian} - Native, \textbf{Greek} - Native, \textbf{Russian} - B2+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
